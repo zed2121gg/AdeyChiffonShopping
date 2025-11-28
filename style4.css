@@ -4,7 +4,6 @@ body {
     padding: 0 20px;
 }
 
-/* Header */
 header {
     text-align: center;
     padding: 20px 0 10px;
@@ -17,7 +16,7 @@ header h1 {
     letter-spacing: 1px;
 }
 
-/* Navigation */
+
 nav {
     margin-top: 10px;
 }
@@ -36,7 +35,7 @@ nav a:hover {
     color: white;
 }
 
-/* Contact Section */
+
 .contact {
     max-width: 700px;
     margin: 40px auto;
@@ -66,8 +65,18 @@ nav a:hover {
     color: #444;
 }
 
-/* Optional: hover effect for contact text */
 .contact p:hover {
     color: #a66377;
     cursor: default;
 }
+@media (max-width: 600px){
+    h1{
+        font-size: 25px;
+    }
+    .nav a  {
+    font-size: 8px;
+    font-weight: bold;
+    padding: 8px;
+    margin: 5px 5px 5px 5px;
+
+    }

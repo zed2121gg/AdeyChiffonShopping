@@ -113,3 +113,30 @@ footer {
     background-image: url(./images/photo_2025-11-21_09-40-27.jpg);
     background-size: cover;
 }
+
+@media (max-width: 600px){
+   nav a  {
+    font-size: 8px;
+    font-weight: bold;
+    padding: 8px;
+    margin: 5px 5px 5px 5px;
+
+    } 
+    .products p{
+        font-size: 10px;
+    }
+    h3{
+        font-size: 10px;
+    }
+    #photos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 150px;
+        gap: 10px;
+        padding: 10px;
+    }
+    #shifon1, #shifon2, #shifon3, #shifon4, #shifon5, #shifon6, #shifon7, #shifon8{
+        width: 150px;
+        height: 150px;
+    }
+}
